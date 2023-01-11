@@ -47,3 +47,8 @@ NAT 映射表只需要维护一个 openvpn 的映射，在公司建立好 vpn �
 ### P2P
 
 上面提到的内网穿透模式，本质上还是传统的 C/S 架构，即两端成端不对等的职责，系统的健壮性完全由 S 端决定。但实际上每个网络节点都是网络完备的，
+
+
+# 相关技术参考
+
+* [wireguard](https://github.com/WireGuard/wireguard-monolithic-historical)
